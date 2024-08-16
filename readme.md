@@ -1,4 +1,4 @@
-# Advanced Search Engine Project
+# Text-Based Search Engine Project
 
 ## Project Overview
 
