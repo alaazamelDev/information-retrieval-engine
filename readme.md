@@ -31,12 +31,22 @@ This project, developed as an assignment for the Information Retrieval subject, 
 
 ### TF-IDF Based Search Engine
 
+<table><tr>
+<td><img src="tf_of.png" /></td>
+<td><img src="tf_on.png" /></td>
+</tr></table>
+
 | Process | Description |
 |---------|-------------|
 | Offline Process | 1. Load and preprocess documents<br>2. Create vocabulary<br>3. Compute TF-IDF matrix<br>4. Store TF-IDF matrix and vocabulary |
 | Online Process | 1. Receive user query<br>2. Preprocess query<br>3. Convert query to TF-IDF vector<br>4. Compute similarity with document vectors<br>5. Rank and return top results |
 
 ### Word2Vec Based Search Engine
+
+<table><tr>
+<td><img src="emb_of.png" /></td>
+<td><img src="emb_on.png" /></td>
+</tr></table>
 
 | Process | Description |
 |---------|-------------|
@@ -84,7 +94,7 @@ The Word Embedding based approach shows superior performance in both Mean Averag
 ## Additional Features
 
 ### Query Suggestion
-
+![N-Grams](n_grams.png)
 Our system provides query suggestions based on:
 1. Processing the user's input query
 2. Generating word vectors using Word2Vec
