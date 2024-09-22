@@ -111,6 +111,12 @@ We implement document clustering to group similar documents and identify topics:
 
 [To be added in a future update]
 
+## Documentation
+
+For complete documentation of the project in Arabic, please refer to the following link:
+
+[Arabic Documentation](https://docs.google.com/document/d/1Fool2lmw9wKLmy9dEnJKBvU3GGOd3ymOAxb2yPikYG8/edit?usp=sharing)
+
 ## Future Improvements
 
 - Implement more advanced embedding models (e.g., BERT, GPT)
